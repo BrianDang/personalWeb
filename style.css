@@ -1,3 +1,8 @@
+@font-face{
+  font-family: fontAqua;
+  src: url(fonts/aqua.ttf);
+}
+
 .navbar{
   margin-bottom: 0px;
 }
@@ -8,7 +13,7 @@
     vertical-align: top;
     padding-top: 10px;
      padding-bottom: 10px;
-
+     font-family: verdana;
 }
 
 .navbar .navbar-collapse {
@@ -22,14 +27,29 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 150px;
     height: 100vh;
-    width: 98vw;
+    width: 99vw;
     color: white;
+    font-family: fontAqua;
 
 }
-
-.body{
+h1{
+  font-size: 3vw!important;
+}
+h2{
+  font-size:2vw!important;
+}
+h4{
+  font-size:1.5vw!important;
+}
+#college{
+  color:red;
+}
+body{
   height: 100%;
   margin: 0;
-
+  overflow-x: hidden;
+  font-family: fontAqua;
+  height: 2000px;
 }
