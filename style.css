@@ -21,18 +21,28 @@
 
 }
 
-.heading{
+.headingFront{
   text-align: center;
-    background-image: url("Background.jpg");
+    background-image: url("pictures/Background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 150px;
+    padding-top: 100px;
     height: 100vh;
     width: 99vw;
     color: white;
     font-family: fontAqua;
 
+}
+.header{
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  /* height: 100vh; */
+  width: 99vw;
+  font-family: fontAqua;
+  font-weight: bold;
+  text-decoration: underline;
 }
 h1{
   font-size: 3vw!important;
@@ -45,6 +55,26 @@ h4{
 }
 #college{
   color:red;
+}
+#Title{
+  padding-bottom: 0px;
+
+}
+#First{
+    margin-left: 50px;
+    font-size:1.4vw;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+  /* max-height:100%; */
+  /* height:auto;
+  width:auto; */
+  margin:auto!important;
+}
+p{
+
+    font-family: Verdana;
 }
 body{
   height: 100%;
