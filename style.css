@@ -86,10 +86,15 @@ body{
   margin: 0;
   overflow-x: hidden;
   font-family: fontAqua;
-  height: 3000px;
+  height: 5000px;
 }
 .second{
   background-color: LightGray;
+}
+.third{
+  background-color: rgb(72, 101, 127);
+  background-size: cover;
+  color: rgb(255, 184, 68);
 }
 #Second{
   margin-left: 50px;
@@ -103,4 +108,13 @@ body{
   font-size:1.6vw;
   /* text-decoration: underline; */
   font-weight: bold;
+}
+.classes{
+  text-align: center;
+  list-style-position: inside;
+  font-size: 1.5vw;
+}
+.listing{
+  padding:20px;
+  font-family:Verdana!important;
 }
