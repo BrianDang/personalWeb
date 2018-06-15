@@ -64,6 +64,9 @@ h4{
     margin-left: 50px;
     font-size:1.4vw;
 }
+.first{
+  padding-bottom:50px;
+}
 img{
   max-width: 100%;
   max-height: 100%;
@@ -86,10 +89,10 @@ body{
   margin: 0;
   overflow-x: hidden;
   font-family: fontAqua;
-  height: 5000px;
 }
 .second{
   background-color: LightGray;
+  padding-bottom: 50px;
 }
 .third{
   background-color: rgb(72, 101, 127);
@@ -117,4 +120,12 @@ body{
 .listing{
   padding:20px;
   font-family:Verdana!important;
+}
+.fourth{
+  color:white;
+  background-color: black;
+}
+.col-centered{
+  margin:0 auto;
+  float: none;
 }
