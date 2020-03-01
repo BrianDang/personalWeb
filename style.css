@@ -1,10 +1,6 @@
-@font-face{
-  font-family: fontAqua;
-  src: url(fonts/aqua.ttf);
-}
-
 .navbar{
-  margin-bottom: 0px;
+  font-size: large;
+  vertical-align: baseline;
 }
 
 .navbar .navbar-nav {
@@ -13,7 +9,7 @@
     vertical-align: top;
     padding-top: 10px;
      padding-bottom: 10px;
-     font-family: verdana;
+     font-family: 'Helvetica', sans-serif;
 }
 
 .navbar .navbar-collapse {
@@ -31,7 +27,7 @@
     height: 100vh;
     width: 99vw;
     color: white;
-    font-family: fontAqua;
+    font-family: 'Helvetica', sans-serif;
 
 }
 .header{
@@ -40,9 +36,8 @@
   padding-bottom: 50px;
   /* height: 100vh; */
   width: 99vw;
-  font-family: fontAqua;
+  font-family: 'Helvetica', sans-serif;
   font-weight: bold;
-  text-decoration: underline;
 }
 h1{
   font-size: 3vw!important;
@@ -54,7 +49,7 @@ h4{
   font-size:1.5vw!important;
 }
 #college{
-  color:red;
+  color:lightgrey;
 }
 #Title{
   padding-bottom: 0px;
@@ -81,14 +76,13 @@ img{
   margin:auto!important;
 }
 p{
-
-    font-family: Verdana;
+  font-family: 'Helvetica', sans-serif;
 }
 body{
   height: 100%;
   margin: 0;
   overflow-x: hidden;
-  font-family: fontAqua;
+  font-family: 'Helvetica', sans-serif;
 }
 .second{
   background-color: LightGray;
@@ -105,11 +99,10 @@ body{
   font-size: 1.4vw;
 }
 .p-2{
-  font-family:Verdana!important;
+  font-family: 'Helvetica', sans-serif!important;
 }
 .subTitle{
   font-size:1.6vw;
-  /* text-decoration: underline; */
   font-weight: bold;
 }
 .classes{
@@ -119,7 +112,7 @@ body{
 }
 .listing{
   padding:20px;
-  font-family:Verdana!important;
+  font-family: 'Helvetica', sans-serif!important;
 }
 .fourth{
   color:white;
@@ -128,4 +121,21 @@ body{
 .col-centered{
   margin:0 auto;
   float: none;
+}
+
+ul li {
+  text-align: left;
+  align-content: left;
+}
+
+.listing {
+  padding: 5px;
+}
+
+h6 {
+  text-align: center;
+}
+
+.col-sm-4 {
+  padding-top: 20px;
 }
